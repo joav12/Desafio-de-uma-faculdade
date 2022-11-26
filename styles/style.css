@@ -1,0 +1,241 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Titulo, nota, etc..*/
+/*Título-etc*/
+.titulo-etc{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/*Título*/
+.titulo{
+    margin-bottom: -15px;
+}
+
+/*Nota, localização, etc*/
+.NTE{
+    display: flex;
+}
+
+/*Nota*/
+.nota{
+    margin-top: 0px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.nota i{
+    margin-right: 3px;
+}
+
+.nota p{
+    margin-top: 1px;
+}
+
+/*Localização*/
+.local{
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.local p{
+    margin-top: 1px;
+}
+
+/*Cidade*/
+.cidade{
+    margin-top: 0px;
+    margin-right: 5px; 
+}
+
+.cidade p{
+    margin-top: 1px;
+}
+
+/*Estado*/
+.estado{
+    margin-top: 0px;
+    margin-right: 5px; 
+}
+
+.estado p{
+    margin-top: 1px;
+}
+
+/*Imagens do estabelecimentos*/
+/*Imagens*/
+.imagens{
+    margin-left: 50px;
+    display: flex;
+}
+
+/*imagem maior*/
+.imgMai img{
+    border-radius: 15px 0px 0px 15px;
+    margin-right: 15px;
+}
+
+/*Imagens menores*/
+.ImgMen{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+/*Imagem cozinha*/
+.imgCoz img{
+    border-radius: 0px 15px 0px 0px;
+}
+
+/*Imagem quintal*/
+.imgQuint img{
+    border-radius: 0px 0px 15px 0px;
+}
+
+/*Descrição*/
+.desc{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+/*Títulod descrição*/
+.tituloDesc{
+    margin-bottom: -10px;
+}
+
+/*O que esse local oferece e preço*/
+.oqLOEPre{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+/*O que esse local oferece*/
+.oqLO{
+   margin-left: 50px; 
+   margin-right: 500px;
+}
+
+/*icones oqLO*/
+.oqLOIcons{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+/*Estacionamento icones oqLO*/
+.OqlOEsta{
+    display: flex;
+}
+
+.OqlOEsta i{
+    margin-right: 5px;
+}
+
+.OqlOEsta p{
+    margin-top: 1px;
+}
+
+/*Wi-fi icones oqLO*/
+.OqlOWIFI{
+    display: flex;
+}
+
+.OqlOWIFI i{
+    margin-right: 5px;
+}
+
+.OqlOWIFI p{
+    margin-top: 1px;
+}
+
+/*Tv icones oqLO*/
+.OqlOTV{
+    display: flex;
+}
+
+.OqlOTV i{
+    margin-right: 5px;
+}
+
+.OqlOTV p{
+    margin-top: 1px;
+}
+
+/*Animais icones oqLO*/
+.OqlOAn{
+    display: flex;
+}
+
+.OqlOAn i{
+    margin-right: 5px;
+}
+
+.OqlOAn p{
+    margin-top: 1px;
+}
+
+/*Cozinha icones oqLO*/
+.OqlOCoz{
+    display: flex;
+}
+
+.OqlOCoz i{
+    margin-right: 5px;
+}
+
+.OqlOCoz p{
+    margin-top: 1px;
+}
+
+/*Ar-condicionado icones oqLO*/
+.OqlOArc{
+    display: flex;
+}
+
+.OqlOArc i{
+    margin-right: 5px;
+}
+
+.OqlOArc p{
+    margin-top: 1px;
+}
+
+/*Preço e reserva*/
+.preEReser{
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+/*Preço*/
+.preco{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.preco h1{
+    margin-right: 5px;
+}
+
+.preco p{
+    margin-top: 35px;
+}
+
+/*Reserva*/
+.reserva{
+    display: flex;
+    justify-content: center;
+}
+
+.reserva button{
+    color: white;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #F02956 , #fd627e);
+    border: none;
+}
